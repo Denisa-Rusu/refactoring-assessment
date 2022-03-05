@@ -10,8 +10,7 @@ public class Customer {
 	String password;
 	
 	ArrayList<CustomerAccount> accounts = new ArrayList<CustomerAccount>();
-	
-	
+
 	
 	//Blank Constructor
 	public Customer() {

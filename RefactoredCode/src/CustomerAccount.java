@@ -4,6 +4,7 @@ public class CustomerAccount  {
    
 	String number;
 	double balance;
+	
 	ArrayList<AccountTransaction> transactionList = new ArrayList<AccountTransaction>();
 
 	//Blank Constructor

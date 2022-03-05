@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class CustomerCurrentAccount extends CustomerAccount {
 	
-	ATMCard atm;
+	ATMCard card;
 	
 
 	//Blank Constructor
@@ -12,19 +12,14 @@ public class CustomerCurrentAccount extends CustomerAccount {
 
 
 	//Constructor with Details
-	public CustomerCurrentAccount(ATMCard atm, String number, double balance, ArrayList<AccountTransaction> transactionList) {
+	public CustomerCurrentAccount(ATMCard card, String number, double balance, ArrayList<AccountTransaction> transactionList) {
 	super(number, balance, transactionList);	
-	this.atm = atm;
+	this.card = card;
 	}
 
 
-	public ATMCard getAtm() {
-		return atm;
-	}
-
-
-	public void setAtm(ATMCard atm) {
-		this.atm = atm;
+	public ATMCard getCard() {
+		return card;
 	}
 	
 }

@@ -16,7 +16,6 @@ public class Customer {
 	public Customer() {
 		
 	}
-	
 
 	//Constructor with Details
 	public Customer(String pps, String surname, String firstName, String dob, String customerID, String password,

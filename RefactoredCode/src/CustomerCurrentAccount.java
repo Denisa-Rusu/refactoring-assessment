@@ -12,8 +12,8 @@ public class CustomerCurrentAccount extends CustomerAccount {
 
 
 	//Constructor with Details
-	public CustomerCurrentAccount(ATMCard card, String number, double balance, ArrayList<AccountTransaction> transactionList) {
-	super(number, balance, transactionList);	
+	public CustomerCurrentAccount(ATMCard card, String accountNumber, double balance, ArrayList<AccountTransaction> transactionList) {
+	super(accountNumber, balance, transactionList);	
 	this.card = card;
 	}
 

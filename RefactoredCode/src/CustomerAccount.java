@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class CustomerAccount  {
    
-	String number;
+	String accountNumber;
 	double balance;
 	
 	ArrayList<AccountTransaction> transactionList = new ArrayList<AccountTransaction>();
@@ -13,21 +13,17 @@ public class CustomerAccount  {
 	}
 
 	//Constructor with Details
-	public CustomerAccount(String number, double balance, ArrayList<AccountTransaction> transactionList) {
+	public CustomerAccount(String accountNumber, double balance, ArrayList<AccountTransaction> transactionList) {
 		super();
-		this.number = number;
+		this.accountNumber = accountNumber;
 		this.balance = balance;
 		this.transactionList = transactionList;
 	}
 	
 
 	//Getter and Setter Methods
-	public String getNumber() {
-		return number;
-	}
-
-	public void setNumber(String number) {
-		this.number = number;
+	public String getAccountNumber() {
+		return accountNumber;
 	}
 
 	public double getBalance() {
@@ -42,8 +38,5 @@ public class CustomerAccount  {
 		return transactionList;
 	}
 
-	public void setTransactionList(ArrayList<AccountTransaction> transactionList) {
-		this.transactionList = transactionList;
-	}
 	
 }

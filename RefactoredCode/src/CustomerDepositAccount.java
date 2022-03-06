@@ -12,8 +12,8 @@ public class CustomerDepositAccount extends CustomerAccount {
 
 
    //Constructor with Details
-   public CustomerDepositAccount(double interestRate, String number, double balance, ArrayList<AccountTransaction> transactionList) {
-	super(number, balance, transactionList);	
+   public CustomerDepositAccount(double interestRate, String accountNumber, double balance, ArrayList<AccountTransaction> transactionList) {
+	super(accountNumber, balance, transactionList);	
 	this.interestRate = interestRate;
    }
    

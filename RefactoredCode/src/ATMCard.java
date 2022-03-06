@@ -10,6 +10,7 @@ public class ATMCard {
 	public ATMCard(int pin, boolean valid)
 	{
 		this.pin = pin;
+		this.valid = valid;
 	}
 
 	public int getPin() {
@@ -33,6 +34,4 @@ public class ATMCard {
 		return "ATMCard [pin=" + pin + 
 				  ", valid=" + valid + "]";
 	}
-
-
 }
